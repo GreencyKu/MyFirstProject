@@ -5,7 +5,7 @@ Hello there!\
 This repository holds my programming projects done during the period of Standford University CS106A course.
 
 # Project List
-##### -Step UP
+##### -Step Up
 ##### -Pothole Filling
 ##### -Beeper Row
 ##### -Beeper Row Adv
