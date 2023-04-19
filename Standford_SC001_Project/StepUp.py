@@ -1,6 +1,6 @@
 """
 File: StepUp.py
-Name: TODO:
+Name: Greency Ku
 ------------------------
 This file shows Karel picking up 
 the beeper at Street 1 Avenue 2,
@@ -13,7 +13,26 @@ from karel.stanfordkarel import *
 
 
 def main():
-    pass
+    # Algorithm
+    move()
+    pick_beeper()
+    move()
+    turn_left()
+    move()
+    turn_right()
+    move()
+    put_99_beepers()
+    move()
+
+
+def turn_right():
+    for i in range(3):
+        turn_left()
+
+
+def put_99_beepers():
+    for i in range(99):
+        put_beeper()
 
 
 # ----- DO NOT MODIFY CODE BELOW THIS LINE ----- #
